@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "build": [
+    {
+      "src": "./src/index.js",
+      "dest": "./build/index.js"
+    }
+  ],
+  "routes": [
+    {
+      "src": "./src/index.html",
+      "dest": "./build/index.html"
+    }
+  ]
+}
