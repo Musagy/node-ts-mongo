@@ -1,12 +1,10 @@
-import mongoose, { ConnectOptions } from "mongoose";
+import mongoose from "mongoose";
+
+const MONGODB_URL = process.env.MONGODB_URL || "mongodb://localhost/mongo-x-ts";
 
 (async () => {
   try {
-    const connectOptions: ConnectOptions = {
-      appName: "mongo-x-ts",
-    };
-
-    const db = await mongoose.connect(`mongodb://localhost/mongo-x-ts`, connectOptions);
+    const db = await mongoose.connect(MONGODB_URL);
     console.log(
       "Base de datos conectada con " + db.connection.name
     );
