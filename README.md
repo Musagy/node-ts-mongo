@@ -9,9 +9,9 @@
 - Mongoose
 
 ## Instalación local
-Si desea tener este proyecto corriendo en su maquina local, haga un clone o descarge el zip.
+Si desea tener este proyecto corriendo en su maquina local, haga un clone o descarga el zip.
 
-Despues de ello ejecute un terminal ubicado en la carpeta del repositorio, y ejecute
+Después de ello ejecute un terminal ubicado en la carpeta del repositorio, y ejecute
 
 ```
 npm i
