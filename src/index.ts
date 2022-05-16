@@ -1,11 +1,11 @@
 import app from "./app";
 import "./database/db"
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
-app.listen(process.env.PORT || PORT, () => {
+app.listen(PORT, () => {
   console.log(
-    `server escuchando desde el puerto: ${process.env.PORT || PORT}
-    >>> http://localhost:${process.env.PORT || PORT}`
+    `server escuchando desde el puerto: ${PORT}
+    >>> http://localhost:${PORT}`
     );
 })
