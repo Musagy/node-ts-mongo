@@ -11,7 +11,7 @@
 ## Instalación local
 Si desea tener este proyecto corriendo en su maquina local, haga un clone o descarga el zip.
 > **Nota:** A parte de ello no esta de mas decir que necesita tener mongodb ejecutando localmente
-
+>
 > **Descarga:** https://www.mongodb.com/try/download/community
 
 Después de ello ejecute un terminal ubicado en la carpeta del repositorio, y ejecute
