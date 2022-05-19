@@ -27,5 +27,7 @@ npm run build
 npm run start
 ```
 
-## Y por ultimo
-Este es la primera parte del proyecto, la siguiente va a ser una app web usando este Backend
+## Nota final
+Este es la primera parte del proyecto, la siguiente va a ser una app web usando este Backend y esta en este repositorio
+
+> Proyecto de Videos favoritos: https://github.com/Musagy/videos-favoritos
